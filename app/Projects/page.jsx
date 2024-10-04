@@ -25,115 +25,115 @@ export default function Project() {
       <ul className="projects-list">
         <li>
           <a href="https://advice-generator-app-five-rose.vercel.app/">
-            <Image src={adviceGeneratorApp} width={327} height={230} />
+            <Image src={adviceGeneratorApp} width={327} height={230} alt="project" />
             <h4>Advice Generator App</h4>
           </a>
         </li>
         <li>
           <a href="https://age-calculator-phi-weld.vercel.app/">
-            <Image src={agecalc} width={327} height={230} />
+            <Image src={agecalc} width={327} height={230} alt="project" />
             <h4>Age Calculator</h4>
           </a>
         </li>
         <li>
           <a href="https://tip-calculator-liard-tau.vercel.app/">
-            <Image src={tipCalc} width={327} height={230} />
+            <Image src={tipCalc} width={327} height={230} alt="project" />
             <h4>Tip Calculator</h4>
           </a>
         </li>
         <li>
           <a href="https://help-support-phi.vercel.app/">
-            <Image src={helpSupport} width={327} height={230} />
+            <Image src={helpSupport} width={327} height={230} alt="project" />
             <h4>Help Support</h4>
           </a>
         </li>
         <li>
           <a href="https://landing-page-red-kappa.vercel.app/">
-            <Image src={LandingPage} width={327} height={230} />
+            <Image src={LandingPage} width={327} height={230} alt="project" />
             <h4>Landing Page</h4>
           </a>
         </li>
         <li>
           <a href="https://dine-restaurant-six.vercel.app/">
-            <Image src={dinerestaurant} width={327} height={230} />
+            <Image src={dinerestaurant} width={327} height={230} alt="project" />
             <h4>Dine Restaurant</h4>
           </a>
         </li>
         <li>
           <a href="https://single-page-portfolio-ebon.vercel.app/">
-            <Image src={singlePage} width={327} height={230} />
+            <Image src={singlePage} width={327} height={230} alt="project" />
             <h4>Single Page Design</h4>
           </a>
         </li>
         <li>
           <a href="https://news-seven-rosy.vercel.app/">
-            <Image src={news} width={327} height={230} />
+            <Image src={news} width={327} height={230} alt="project" />
             <h4>News</h4>
           </a>
         </li>
         <li>
           <a href="https://typemaster-nu.vercel.app/">
-            <Image src={Typemaster} width={327} height={230} />
+            <Image src={Typemaster} width={327} height={230} alt="project" />
             <h4>Typemaster</h4>
           </a>
         </li>
         <li>
           <a href="https://coffee-roasters-three.vercel.app/">
-            <Image src={CoffeeRoasters} width={327} height={230} />
+            <Image src={CoffeeRoasters} width={327} height={230} alt="project" />
             <h4>Coffee Roasters</h4>
           </a>
         </li>
         <li>
           <a href="https://saas-lime-one.vercel.app/">
-            <Image src={Saas} width={327} height={230} />
+            <Image src={Saas} width={327} height={230} alt="project" />
             <h4>Saas</h4>
           </a>
         </li>
         <li>
           <a href="https://blog-page-blond.vercel.app/">
-            <Image src={BlogPage} width={327} height={230} />
+            <Image src={BlogPage} width={327} height={230} alt="project" />
             <h4>Blog Page</h4>
           </a>
         </li>
         <li>
           <a href="https://stiller-sila-karas-projects.vercel.app/">
-            <Image src={Stiller} width={327} height={230} />
+            <Image src={Stiller} width={327} height={230} alt="project" />
             <h4>Stiller</h4>
           </a>
         </li>
         <li>
           <a href="https://blog-prewiev.vercel.app/">
-            <Image src={BlogPrewiev} width={327} height={230} />
+            <Image src={BlogPrewiev} width={327} height={230} alt="project" />
             <h4>Blog Prewiev</h4>
           </a>
         </li>
         <li>
           <a href="https://article-prewiev-six.vercel.app/">
-            <Image src={ArticlePrewiev} width={327} height={230} />
+            <Image src={ArticlePrewiev} width={327} height={230} alt="project" />
             <h4>Article Prewiev</h4>
           </a>
         </li>
         <li>
           <a href="https://blog-prewiev.vercel.app/">
-            <Image src={FaqsAccordion} width={327} height={230} />
+            <Image src={FaqsAccordion} width={327} height={230} alt="project" />
             <h4>Faqs Accordion</h4>
           </a>
         </li>
         <li>
           <a href="https://hero-shop-pi.vercel.app/">
-            <Image src={HeroShop} width={327} height={230} />
+            <Image src={HeroShop} width={327} height={230} alt="project" />
             <h4>Hero Shop</h4>
           </a>
         </li>
         <li>
           <a href="https://order-summary-tan-zeta.vercel.app/">
-            <Image src={OrderSummary} width={327} height={230} />
+            <Image src={OrderSummary} width={327} height={230} alt="project" />
             <h4>Order Summary</h4>
           </a>
         </li>
         <li>
           <a href="https://hero-saas-ijaw.vercel.app/">
-            <Image src={HeroSaas} width={327} height={230} />
+            <Image src={HeroSaas} width={327} height={230} alt="project" />
             <h4>Hero Saas</h4>
           </a>
         </li>
