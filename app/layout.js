@@ -32,10 +32,9 @@ export default function RootLayout({ children }) {
         <div className="Header">
           <h1>SILA KARA</h1>
           <div class="Nav">
-            <Link href={'/'}>Home</Link>
-            <Link href={'/AboutMe'}>About Me</Link>
-            <Link href={'/Projects'}>Projects</Link>
-            <Link href={'/ContactMe'}>Contact Me</Link>
+            <Link href={'/'}>Anasayfa</Link>
+            <Link href={'/AboutMe'}>Hakkımda</Link>
+            <Link href={'/Projects'}>Projeler</Link>
           </div>
         </div>
         {children}

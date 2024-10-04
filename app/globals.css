@@ -56,7 +56,14 @@ li {
     border: 2px solid #A8A8A8;
     padding: 5px 8px;
     text-decoration: underline #FF9142;
+    margin-bottom: 15px;
   }
+}
+
+.Nav {
+  justify-content: center;
+  display: flex;
+  gap: 15px;
 }
 
 .Hero {
@@ -140,6 +147,11 @@ li {
   li {
     margin-bottom: 50px;
   }
+  button {
+    cursor: pointer;
+    background-color: #A8A8A8;
+    border: 2px solid #A8A8A8;
+  }
 }
 
 .Footer {
@@ -188,6 +200,132 @@ li {
 
   }
 }
+
+.projects-container ul {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+  font-family: "Syne", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  ul {
+    margin: 0 auto;
+    text-align: center;
+  }
+  li {
+    margin-bottom: 30px;
+  }
+  img {
+    margin-bottom: 15px;
+  }
+  a {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    color: #A8A8A8;
+    text-decoration: none;
+  }
+}
+
+.AboutMeContainer {
+  width: 385px;
+  margin: 0 auto;
+  padding: 20px 0px 0px 0px;
+  font-family: "Syne", sans-serif;
+  h1 {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+  }
+  p {
+    color: #A8A8A8;
+    margin-bottom: 30px;
+  }
+  h3 {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    text-decoration: underline #FF9142;
+  }
+}
+
+.paragraf {
+  margin-bottom: 30px;
+  a {
+    background-color: #FFFFFF ;
+    color: #131313;
+    padding: 15px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+}
+
+.follow-on-me {
+  margin-bottom: 50px;
+}
+
+.images {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden; /* Taşan logoları gizle */
+  white-space: nowrap; /* Tek satır halinde tut */
+  padding-top: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.images .scroll {
+  display: flex;
+  gap: 25px; /* Aralarındaki boşluk */
+  animation: scroll 20s linear infinite; /* Sürekli döngü */
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Başlangıç */
+  }
+  100% {
+    transform: translateX(-50%); /* Logoların yarısına kadar kaydır */
+  }
+}
+
+.images img {
+  transition: transform 0.3s ease;
+}
+
+.images img:hover {
+  transform: scale(1.1); /* Üzerine gelince büyüme efekti */
+}
+
+.AboutMeFooter {
+  text-align: center;
+  padding: 0px;
+  background-color: #131313;
+  padding: 30px 20px;
+  h3 {
+    font-size: 13px;
+    color: #FF9142;
+    font-weight: lighter;
+  }
+  a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  hr {
+    margin: 30px 0px;
+    border: 0.4px solid #A8A8A8;
+  }
+}
+
+.paragraf {
+  padding: 0px 20px;
+}
+
+
 
 @media(width >= 768px) {
   .container {
@@ -250,6 +388,47 @@ li {
   .section-visible {
     opacity: 1;
     transform: scale(1.05);
+  }
+
+  .projects-container ul {
+    width: 768px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+    font-family: "Syne", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    ul {
+      margin: 0 auto;
+      text-align: center;
+    }
+    li {
+      margin-bottom: 40px;
+    }
+    img {
+      margin-bottom: 20px;
+    }
+    a {
+      list-style: none;
+      margin: 0 auto;
+      text-align: center;
+      color: #A8A8A8;
+      text-decoration: none;
+    }
+  }
+
+  .AboutMeContainer {
+    width: 778px;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+    font-family: "Syne", sans-serif;
+    h1 {
+      color: #FFFFFF;
+      margin-bottom: 30px;
+    }
+    p {
+      color: #A8A8A8;
+    }
   }
 }
 
@@ -370,7 +549,64 @@ li {
     height: 40px;
   }
 
+  .projects-container ul {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 40px 40px 40px 40px;
+    font-family: "Syne", sans-serif;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    ul {
+      margin: 0 auto;
+      text-align: center;
+    }
+    li {
+      margin-bottom: 40px;
+    }
+    img {
+      margin-bottom: 20px;
+    }
+    a {
+      list-style: none;
+      margin: 0 auto;
+      text-align: center;
+      color: #A8A8A8;
+      text-decoration: none;
+    }
+  }
+
+  .projects-container a:hover {
+    text-decoration: underline #FF9142;
+  }
+
+  .projects-container img {
+    opacity: 0.8;
+  }
+
+  .projects-container img:hover {
+    opacity: 1.0;
+  }
+
   .Header a:hover {
     text-decoration: underline #FF9142;
+  }
+
+  .AboutMeContainer {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0px 0px 0px;
+    font-family: "Syne", sans-serif;
+    h1 {
+      color: #FFFFFF;
+      margin-bottom: 40px;
+    }
+    p {
+      color: #A8A8A8;
+    }
+  }
+
+  .AboutMeFooter {
+    width: 1440px;
   }
 }

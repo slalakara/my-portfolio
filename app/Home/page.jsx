@@ -9,6 +9,8 @@ import Twitter from "@/app/img/twitter.png";
 import AdviceApp from "@/app/img/adviceGeneratorApp.png"
 import AgeCalc from "@/app/img/ageCalc.png"
 import DineRest from "@/app/img/dine-restaurant-ekrangor.png"
+import github from "@/app/img/github.svg"
+import linkdin from "@/app/img/linkdin.svg"
 
 export default function Home() {
   useEffect(() => {
@@ -60,17 +62,25 @@ export default function Home() {
         <h2>Öne Çıkan Projelerim</h2>
         <ul>
           <li>
-            <Image src={AdviceApp} width={600}  />
+            <button href="https://advice-generator-app-five-rose.vercel.app/">
+              <Image src={AdviceApp} width={327} height={230} />
+              <h4>Advice Generator App</h4>
+            </button>
           </li>
           <li>
-            <Image src={AgeCalc} width={600}  />
+            <button href="https://age-calculator-phi-weld.vercel.app/">
+              <Image src={AgeCalc} width={327} height={230} />
+              <h4>Age Calculator</h4>
+            </button>
           </li>
           <li>
-            <Image src={DineRest} width={600}  />
+            <button href="https://dine-restaurant-six.vercel.app/">
+              <Image src={DineRest} width={327} height={230} />
+              <h4>Dine Restaurant</h4>
+            </button>
           </li>
         </ul>
         <Link href={"/Projects"}>Projeleri Keşfedin ▶</Link>
-        <div className="ProjectsContent"></div>
       </div>
 
       <div className="Footer section">
@@ -80,9 +90,12 @@ export default function Home() {
         <div className="social">
           <h1>SILA KARA</h1>
           <div className="imgs">
-            <Image src={Facebook} width={30} height={30} />
-            <Image src={Instagram} width={30} height={30} />
-            <Image src={Twitter} width={30} height={30} />
+            <a href="https://github.com/slalakara">
+              <Image src={github} width={30} height={30} />
+            </a>
+            <a href="https://www.linkedin.com/in/sıla-kara8888">
+              <Image src={linkdin} width={30} height={30} />
+            </a>
           </div>
         </div>
       </div>
