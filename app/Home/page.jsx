@@ -63,19 +63,19 @@ export default function Home() {
         <ul>
           <li>
             <button href="https://advice-generator-app-five-rose.vercel.app/">
-              <Image src={AdviceApp} width={327} height={230} />
+              <Image src={AdviceApp} width={327} height={230} alt="project" />
               <h4>Advice Generator App</h4>
             </button>
           </li>
           <li>
             <button href="https://age-calculator-phi-weld.vercel.app/">
-              <Image src={AgeCalc} width={327} height={230} />
+              <Image src={AgeCalc} width={327} height={230} alt="project />
               <h4>Age Calculator</h4>
             </button>
           </li>
           <li>
             <button href="https://dine-restaurant-six.vercel.app/">
-              <Image src={DineRest} width={327} height={230} />
+              <Image src={DineRest} width={327} height={230} alt="project />
               <h4>Dine Restaurant</h4>
             </button>
           </li>
@@ -91,10 +91,10 @@ export default function Home() {
           <h1>SILA KARA</h1>
           <div className="imgs">
             <a href="https://github.com/slalakara">
-              <Image src={github} width={30} height={30} />
+              <Image src={github} width={30} height={30} alt="logo" />
             </a>
             <a href="https://www.linkedin.com/in/sıla-kara8888">
-              <Image src={linkdin} width={30} height={30} />
+              <Image src={linkdin} width={30} height={30} alt="logo" />
             </a>
           </div>
         </div>
