@@ -15,8 +15,8 @@ export default function AboutMe() {
         <h1>Hakkımda</h1>
         <p>
           Merhaba! Ben 21 yaşında bir bilgisayar mühendisliği öğrencisiyim ve
-          Nişantaşı Üniversitesi'nde 2. sınıfta eğitimime devam ediyorum.
-          Aynı zamanda Acunmedya Akademi'de aldığım 6 aylık Frontend geliştirme
+          Nişantaşı Üniversitesi&apos;nde 2. sınıfta eğitimime devam ediyorum.
+          Aynı zamanda Acunmedya Akademi&apos;de aldığım 6 aylık Frontend geliştirme
           eğitimimle HTML, CSS, JavaScript, React ve Next.js gibi teknolojilerde
           kendimi geliştirdim. Projelerimde Git ve GitHub kullanarak kodlarımı
           düzenli bir şekilde yönetiyorum. Kendimi sürekli geliştirmeyi
@@ -25,7 +25,7 @@ export default function AboutMe() {
           kazanarak projeler üretmeye devam ediyorum.
         </p>
         <a href="/cv.pdf" target="_blank" rel="noopener noreferrer" className="cv-link">
-         CV'mi Görüntüle
+         CV&apos;mi Görüntüle
         </a>
       </div>
       <div className="follow-on-me">
