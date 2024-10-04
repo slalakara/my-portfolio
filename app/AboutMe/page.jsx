@@ -90,10 +90,10 @@ export default function AboutMe() {
           <h1>SILA KARA</h1>
           <div className="imgs">
             <a href="https://github.com/slalakara">
-              <Image src={github} width={30} height={30} />
+              <Image src={github} width={30} height={30} alt="logo" />
             </a>
             <a href="https://www.linkedin.com/in/sıla-kara8888">
-              <Image src={linkdin} width={30} height={30} />
+              <Image src={linkdin} width={30} height={30} alt="logo" />
             </a>
           </div>
         </div>
