@@ -47,9 +47,9 @@ export default function Home() {
         <div className="AboutMeText">
           <h2>Beni daha yakından tanıyalım</h2>
           <p>
-            Sıla, Nişantaşı Üniversitesi'nde Bilgisayar Mühendisliği öğrencisi
+            Sıla, Nişantaşı Üniversitesi&apos;nde Bilgisayar Mühendisliği öğrencisi
             olup, frontend geliştirme konusunda uzmanlaşan bir yazılım
-            geliştiricidir. Son 6 aydır Acunmedya Akademi’de frontend temelleri
+            geliştiricidir. Son 6 aydır Acunmedya Akademi&apos;de frontend temelleri
             ve uzmanlığı üzerine eğitim aldı ve bu süreçte çeşitli projeler
             geliştirdi.
           </p>
