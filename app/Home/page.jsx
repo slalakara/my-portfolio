@@ -69,13 +69,13 @@ export default function Home() {
           </li>
           <li>
             <button href="https://age-calculator-phi-weld.vercel.app/">
-              <Image src={AgeCalc} width={327} height={230} alt="project />
+              <Image src={AgeCalc} width={327} height={230} alt="project" />
               <h4>Age Calculator</h4>
             </button>
           </li>
           <li>
             <button href="https://dine-restaurant-six.vercel.app/">
-              <Image src={DineRest} width={327} height={230} alt="project />
+              <Image src={DineRest} width={327} height={230} alt="project" />
               <h4>Dine Restaurant</h4>
             </button>
           </li>
